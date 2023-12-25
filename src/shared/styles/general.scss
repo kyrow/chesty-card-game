@@ -1,0 +1,38 @@
+@import "./normalize.scss";
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+
+	background-color: $light_background;
+	color: $light_text;
+
+
+	p {
+		color: $light_text;
+	}
+
+	h2 {
+		color: $light_header;
+	}
+}
+
+[data-theme="dark"] {
+	background-color: $dark_background;
+	color: $dark_text;
+
+	h2 {
+		color: $dark_header;
+	}
+
+	p {
+		color: $dark_text;
+	}
+}

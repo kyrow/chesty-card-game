@@ -23,16 +23,3 @@ body {
 		color: $light_header;
 	}
 }
-
-[data-theme="dark"] {
-	background-color: $dark_background;
-	color: $dark_text;
-
-	h2 {
-		color: $dark_header;
-	}
-
-	p {
-		color: $dark_text;
-	}
-}

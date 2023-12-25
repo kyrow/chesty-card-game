@@ -1,5 +1,6 @@
 import styles from './index.module.scss'
-import IntroFormFeature from '../../features/introForm'
+
+import IntroFormWidget from '../../widgets/introForm'
 
 function IntroPage() {
 
@@ -7,7 +8,7 @@ function IntroPage() {
 
 	return (
 		<div className={container}>
-			<IntroFormFeature />
+			<IntroFormWidget />
 		</div>
 	)
 }
